@@ -1,0 +1,79 @@
+body {
+   font-family: 'Nunito', serif;
+   font-size: 4vw;
+   background-color: #484d5c;
+   color: #c0ccd4;
+}
+
+h1, h2, h3, h4, h5, h6 {
+   font-family: 'Oswald', sans-serif;
+   text-transform: uppercase;
+   margin-top: 25px;
+   color: #2376e1;
+}
+
+h1 {
+    font-size: 6vw;
+}
+
+li, p {
+  line-height: 1.5;
+}
+
+.container {
+   display: flex;
+   flex-direction: column;
+}
+
+.main-content {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   align-content: stretch;
+}
+.image-container {
+   width: 100%;
+}
+.contact-container {
+   padding: 25px;
+   width: 100%;
+}
+.contact {
+   list-style-type: none;
+   padding-left: 25px;
+}
+
+.contact li {
+   color: #c0ccd4;
+   
+}
+
+.contact li a {
+   color: #2376e1;
+   text-decoration: none;
+}
+
+.footer {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 14px;
+   border-top: 2px solid #2376e1;
+   margin: 25px;
+   padding: 15px 0px;
+}
+
+@media screen and (min-width: 768px) {
+  body {
+     font-size: 2vw;
+  }
+  .image-container {
+     width: 50%;
+  }
+  .contact-container {
+     width: 40%;
+  }
+  .footer {
+     border-top: none;
+  }
+}
